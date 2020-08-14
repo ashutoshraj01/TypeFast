@@ -19,7 +19,7 @@ scoreVal.textContent = `Score: ${score}`;
 
 // Words collections
 var wordList = [
-    " troop",
+    "troop",
      "chase",
      "cottage",
      "means",
