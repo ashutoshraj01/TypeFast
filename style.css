@@ -135,3 +135,12 @@ p{
 .setting:hover {
     color: black;
 }
+
+.signature{
+    color: rgb(0, 43, 54);
+    text-align: right;
+    padding: 10px 20px;
+    font-family: monospace;
+    font-size: 13px;
+    margin-top: 85px;
+}
