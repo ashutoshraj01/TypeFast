@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Type Fast</title>
+</head>
+<body>
+
+    <header>
+      <span>Type Fast</span>
+    </header>
+    
+    <main>
+        <div class="setting">
+            <i class="fas fa-cog"></i>
+        </div>
+         
+        <div class="leftContainer" id="timer">
+        </div>
+
+        <div class="container">
+            <p>Type the following word:</p>
+            <p id="word">Word</p>
+            <input type="text" autocomplete="off"
+            id="inputfield"
+             placeholder="Enter the word ..."
+            />
+        </div>
+        
+        <div class="rightContainer" id="scoreVal">
+        </div>
+       
+        <div id="modal">
+             <p id="closeModal">x</p> 
+            <p class="gameOver">Game Over! 🙂</p>
+            <p id="totalValue"></p>
+            <button id="restartBtn">Restart</button>
+        </div>
+
+
+       
+    </main>
+     
+     <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
